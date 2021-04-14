@@ -18,7 +18,7 @@ white = pygame.Color(255, 255, 255)
 green = pygame.Color(20, 255, 20)
 blue = pygame.Color(59, 87, 181)
 
-pygame.mixer.music.load("../sounds/Light-6b.mp3") # Cargamos el archivo de musica
+pygame.mixer.music.load("../sounds/lose.mp3") # Cargamos el archivo de musica
 pygame.mixer.music.set_volume(1.0) # Para el volumen maximo, Float 0.0 - 1.0
 # Despues ejecutamos la funcion play
 pygame.mixer.music.play(-1, 0.0) # cantida de veces q la cacion se va a repoducir, y en q momento se va reproducir

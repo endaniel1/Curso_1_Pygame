@@ -4,10 +4,12 @@ TITLE = "Juego Facilito!!"
 FPS = 60
 
 # RGB
+WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 GREEN = (69, 184, 61)
 BLUE = (78, 137, 193)
 RED = (184, 61, 88)
+YELLOW = (255, 255, 0)
 
 # Physical
 PLAYER_GRAV = 1.2
@@ -15,3 +17,8 @@ SPEED = 3
 
 # Max
 MAX_WALLS = 10
+MAX_COINS = 10
+
+#Font
+FONT = "Arial"
+TEXT_POSY = 20
